@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+    style
+        include ../static/style.css
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="items" ><a href="/"></li>Home</a></li>
+            <li class="items" ><a href="/"></li>About</a></li>
+            <li class="items" ><a href="/"></li>Services</a></li>
+            <li class="items" ><a href="/"></li>Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Sign up to get Exciting deals on our Gym membership</h1>
+        <p>
+            |#{content}
+        </p>
+        <form action="/" method="post" id="contact">
+            <input type="text" id="name" name="Name" placeholder="Enter your name">
+            <input type="number" id="age" name="Age" placeholder="Enter your Age">
+            <input type="email" id="email" name="Email" placeholder="Enter your Email Address">
+            <input type="text" id="address" name="Address" placeholder="Enter your Address"> 
+            <textarea name="More" id="more" cols="30" rows="10" placeholder="More about yourself"></textarea>       
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
