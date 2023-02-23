@@ -20,7 +20,6 @@ Install dependencies
 ```
 
 Start the server
-
 ```bash
   nodemon app.js
 ```
